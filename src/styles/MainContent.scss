@@ -1,0 +1,70 @@
+@import "variables";
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .top-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+
+    img {
+      border-radius: 15px;
+      border: 2px white solid;
+      height: 280px;
+      width: 250px;
+      object-fit: cover;
+      object-position: top;
+      margin-right: 20px;
+    }
+  }
+
+  &__name {
+    text-shadow: $neon-shadow;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+
+  .neon{
+    font-size: 40px;
+    color: #FFD5FF;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-shadow: $neon-shadow;
+  }
+
+  .flicker-slow{
+    animation: flicker 3s linear infinite;
+  }
+
+  .flicker-fast{
+    animation: flicker 1s linear infinite;
+  }
+
+  @keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+      opacity: .99;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      opacity: 0.4;
+    }
+  }
+}
+

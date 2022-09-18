@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&display=swap');
+@import "styles/variables";
+
+@import "styles/MainContent";
+@import "styles/SkillBox";
+@import "styles/SoftSkillsBox";
+
+@import "styles/common/DropDown";
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &:hover {
+    color: #FFD5FF;
+    text-shadow: $neon-shadow;
+  }
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body
+{
+  width:100%;
+  height: 100%;
+}
+
+body
+{
+  font-family: 'Permanent Marker', cursive !important;
+}
+
+body {
+  margin: 0;
+  background-color: $main-bg-color;
+  color: $main-font-color;
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}

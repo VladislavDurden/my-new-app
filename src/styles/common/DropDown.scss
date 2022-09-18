@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.common-drop-down {
+  display: flex;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  border: #B8CBDA 1px solid;
+
+  &__title {
+    cursor: pointer;
+  }
+
+  &__list {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  &__item-type {
+    font-size: 1.4rem;
+    margin-right: 8px;
+    text-shadow: $neon-shadow;
+  }
+}
