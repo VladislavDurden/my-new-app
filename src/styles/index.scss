@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&display=swap');
-@import "styles/variables";
+@import "variables";
 
-@import "styles/MainContent";
-@import "styles/SkillBox";
-@import "styles/SoftSkillsBox";
+@import "MainContent/MainContent";
 
-@import "styles/common/DropDown";
+@import "common/DropDown";
+
+
+// reusable classes start
+
+.page {
+
+}
+
+.container {
+
+}
 
 .main-title {
   font-size: 3rem;
@@ -28,6 +37,8 @@
     text-shadow: $neon-shadow;
   }
 }
+
+// reusable classes end
 
 html {
   -webkit-box-sizing: border-box;

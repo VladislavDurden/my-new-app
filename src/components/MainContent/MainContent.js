@@ -1,6 +1,6 @@
-import Data from "../data/cv-data.json";
+import Data from "../../data/cv-data.json";
 
-import MainPhoto from "../assets/main-photo.jpg"
+import MainPhoto from "../../assets/main-photo.jpg"
 import SkillsAndHobbies from "./SkillsAndHobbies";
 
 const MainContent = () => {
