@@ -1,4 +1,4 @@
-import DropDown from "./common/dropDown"
+import DropDown from "../common/dropDown/dropDown"
 import {useState} from "react";
 
 const SkillsAndHobbies = (props) => {
